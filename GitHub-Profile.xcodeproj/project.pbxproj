@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,29 @@
 		CEC9E93D25ECE22E009DCE5B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9E93C25ECE22E009DCE5B /* ProfileViewController.swift */; };
 		CEC9E94225ECE231009DCE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC9E94125ECE231009DCE5B /* Assets.xcassets */; };
 		CEC9E94525ECE231009DCE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC9E94325ECE231009DCE5B /* LaunchScreen.storyboard */; };
+		CEC9E99825ECEC4A009DCE5B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CEC9E99725ECEC4A009DCE5B /* SnapKit */; };
+		CECE6E2125ED28CB00C69A26 /* SourceSansPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1525ED28CB00C69A26 /* SourceSansPro-LightItalic.ttf */; };
+		CECE6E2225ED28CB00C69A26 /* SourceSansPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1625ED28CB00C69A26 /* SourceSansPro-BlackItalic.ttf */; };
+		CECE6E2325ED28CB00C69A26 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1725ED28CB00C69A26 /* SourceSansPro-Light.ttf */; };
+		CECE6E2425ED28CB00C69A26 /* SourceSansPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1825ED28CB00C69A26 /* SourceSansPro-SemiBoldItalic.ttf */; };
+		CECE6E2525ED28CB00C69A26 /* SourceSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1925ED28CB00C69A26 /* SourceSansPro-Italic.ttf */; };
+		CECE6E2625ED28CB00C69A26 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1A25ED28CB00C69A26 /* SourceSansPro-ExtraLight.ttf */; };
+		CECE6E2725ED28CB00C69A26 /* SourceSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1B25ED28CB00C69A26 /* SourceSansPro-BoldItalic.ttf */; };
+		CECE6E2825ED28CB00C69A26 /* SourceSansPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1C25ED28CB00C69A26 /* SourceSansPro-ExtraLightItalic.ttf */; };
+		CECE6E2925ED28CB00C69A26 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1D25ED28CB00C69A26 /* SourceSansPro-Bold.ttf */; };
+		CECE6E2A25ED28CB00C69A26 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1E25ED28CB00C69A26 /* SourceSansPro-Regular.ttf */; };
+		CECE6E2B25ED28CB00C69A26 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E1F25ED28CB00C69A26 /* SourceSansPro-SemiBold.ttf */; };
+		CECE6E2C25ED28CB00C69A26 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CECE6E2025ED28CB00C69A26 /* SourceSansPro-Black.ttf */; };
+		CECE6E2F25ED2A0600C69A26 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E2E25ED2A0600C69A26 /* FontExtension.swift */; };
+		CECE6E3225EDC20C00C69A26 /* RepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E3125EDC20C00C69A26 /* RepositoryCell.swift */; };
+		CECE6E3525EDC22600C69A26 /* RepositoryAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E3425EDC22600C69A26 /* RepositoryAdapter.swift */; };
+		CECE6E3E25EDC87800C69A26 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E3D25EDC87800C69A26 /* Response.swift */; };
+		CECE6E4625EDC9E000C69A26 /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E4525EDC9E000C69A26 /* URLSessionExtension.swift */; };
+		CECE6E4B25EDCCBA00C69A26 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E4A25EDCCBA00C69A26 /* Network.swift */; };
+		CECE6E4F25EDCFF800C69A26 /* ProfileDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E4E25EDCFF800C69A26 /* ProfileDetailsService.swift */; };
+		CECE6E5225EDD14300C69A26 /* ProfileViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E5125EDD14300C69A26 /* ProfileViewPresenter.swift */; };
+		CECE6E5625EDD74E00C69A26 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CECE6E5525EDD74E00C69A26 /* Kingfisher */; };
+		CECE6E5925EDE4EA00C69A26 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE6E5825EDE4EA00C69A26 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +43,27 @@
 		CEC9E94125ECE231009DCE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC9E94425ECE231009DCE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC9E94625ECE231009DCE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECE6E1525ED28CB00C69A26 /* SourceSansPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		CECE6E1625ED28CB00C69A26 /* SourceSansPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CECE6E1725ED28CB00C69A26 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		CECE6E1825ED28CB00C69A26 /* SourceSansPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CECE6E1925ED28CB00C69A26 /* SourceSansPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		CECE6E1A25ED28CB00C69A26 /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CECE6E1B25ED28CB00C69A26 /* SourceSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CECE6E1C25ED28CB00C69A26 /* SourceSansPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CECE6E1D25ED28CB00C69A26 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		CECE6E1E25ED28CB00C69A26 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		CECE6E1F25ED28CB00C69A26 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		CECE6E2025ED28CB00C69A26 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		CECE6E2E25ED2A0600C69A26 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		CECE6E3125EDC20C00C69A26 /* RepositoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryCell.swift; sourceTree = "<group>"; };
+		CECE6E3425EDC22600C69A26 /* RepositoryAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryAdapter.swift; sourceTree = "<group>"; };
+		CECE6E3D25EDC87800C69A26 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		CECE6E4525EDC9E000C69A26 /* URLSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		CECE6E4A25EDCCBA00C69A26 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CECE6E4E25EDCFF800C69A26 /* ProfileDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsService.swift; sourceTree = "<group>"; };
+		CECE6E5125EDD14300C69A26 /* ProfileViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewPresenter.swift; sourceTree = "<group>"; };
+		CECE6E5825EDE4EA00C69A26 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECE6E5625EDD74E00C69A26 /* Kingfisher in Frameworks */,
+				CEC9E99825ECEC4A009DCE5B /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,14 +98,16 @@
 		CEC9E93725ECE22E009DCE5B /* GitHub-Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CECE6E4D25EDCFC500C69A26 /* Service */,
+				CECE6E1325ED285200C69A26 /* Resources */,
 				CEC9E98F25ECE6E3009DCE5B /* Model */,
 				CEC9E98E25ECE6D7009DCE5B /* View */,
 				CEC9E98D25ECE6CE009DCE5B /* Presenter */,
 				CEC9E98C25ECE6C3009DCE5B /* App */,
-				CEC9E93C25ECE22E009DCE5B /* ProfileViewController.swift */,
 				CEC9E94125ECE231009DCE5B /* Assets.xcassets */,
 				CEC9E94325ECE231009DCE5B /* LaunchScreen.storyboard */,
 				CEC9E94625ECE231009DCE5B /* Info.plist */,
+				CECE6E4A25EDCCBA00C69A26 /* Network.swift */,
 			);
 			path = "GitHub-Profile";
 			sourceTree = "<group>";
@@ -75,6 +123,7 @@
 		CEC9E98D25ECE6CE009DCE5B /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				CECE6E5125EDD14300C69A26 /* ProfileViewPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -82,6 +131,9 @@
 		CEC9E98E25ECE6D7009DCE5B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CEC9E93C25ECE22E009DCE5B /* ProfileViewController.swift */,
+				CECE6E3125EDC20C00C69A26 /* RepositoryCell.swift */,
+				CECE6E3425EDC22600C69A26 /* RepositoryAdapter.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,8 +141,55 @@
 		CEC9E98F25ECE6E3009DCE5B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CECE6E3C25EDC85D00C69A26 /* reponse */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CECE6E1325ED285200C69A26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CECE6E1425ED285B00C69A26 /* Fonts */,
+				CECE6E2E25ED2A0600C69A26 /* FontExtension.swift */,
+				CECE6E4525EDC9E000C69A26 /* URLSessionExtension.swift */,
+				CECE6E5825EDE4EA00C69A26 /* UIColorExtension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CECE6E1425ED285B00C69A26 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CECE6E2025ED28CB00C69A26 /* SourceSansPro-Black.ttf */,
+				CECE6E1625ED28CB00C69A26 /* SourceSansPro-BlackItalic.ttf */,
+				CECE6E1D25ED28CB00C69A26 /* SourceSansPro-Bold.ttf */,
+				CECE6E1B25ED28CB00C69A26 /* SourceSansPro-BoldItalic.ttf */,
+				CECE6E1A25ED28CB00C69A26 /* SourceSansPro-ExtraLight.ttf */,
+				CECE6E1C25ED28CB00C69A26 /* SourceSansPro-ExtraLightItalic.ttf */,
+				CECE6E1925ED28CB00C69A26 /* SourceSansPro-Italic.ttf */,
+				CECE6E1725ED28CB00C69A26 /* SourceSansPro-Light.ttf */,
+				CECE6E1525ED28CB00C69A26 /* SourceSansPro-LightItalic.ttf */,
+				CECE6E1E25ED28CB00C69A26 /* SourceSansPro-Regular.ttf */,
+				CECE6E1F25ED28CB00C69A26 /* SourceSansPro-SemiBold.ttf */,
+				CECE6E1825ED28CB00C69A26 /* SourceSansPro-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CECE6E3C25EDC85D00C69A26 /* reponse */ = {
+			isa = PBXGroup;
+			children = (
+				CECE6E3D25EDC87800C69A26 /* Response.swift */,
+			);
+			path = reponse;
+			sourceTree = "<group>";
+		};
+		CECE6E4D25EDCFC500C69A26 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CECE6E4E25EDCFF800C69A26 /* ProfileDetailsService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +208,10 @@
 			dependencies = (
 			);
 			name = "GitHub-Profile";
+			packageProductDependencies = (
+				CEC9E99725ECEC4A009DCE5B /* SnapKit */,
+				CECE6E5525EDD74E00C69A26 /* Kingfisher */,
+			);
 			productName = "GitHub-Profile";
 			productReference = CEC9E93525ECE22E009DCE5B /* GitHub-Profile.app */;
 			productType = "com.apple.product-type.application";
@@ -136,6 +239,10 @@
 				Base,
 			);
 			mainGroup = CEC9E92C25ECE22E009DCE5B;
+			packageReferences = (
+				CEC9E99625ECEC4A009DCE5B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CECE6E5425EDD74E00C69A26 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = CEC9E93625ECE22E009DCE5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -150,8 +257,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECE6E2825ED28CB00C69A26 /* SourceSansPro-ExtraLightItalic.ttf in Resources */,
+				CECE6E2625ED28CB00C69A26 /* SourceSansPro-ExtraLight.ttf in Resources */,
+				CECE6E2725ED28CB00C69A26 /* SourceSansPro-BoldItalic.ttf in Resources */,
+				CECE6E2225ED28CB00C69A26 /* SourceSansPro-BlackItalic.ttf in Resources */,
 				CEC9E94525ECE231009DCE5B /* LaunchScreen.storyboard in Resources */,
 				CEC9E94225ECE231009DCE5B /* Assets.xcassets in Resources */,
+				CECE6E2C25ED28CB00C69A26 /* SourceSansPro-Black.ttf in Resources */,
+				CECE6E2325ED28CB00C69A26 /* SourceSansPro-Light.ttf in Resources */,
+				CECE6E2425ED28CB00C69A26 /* SourceSansPro-SemiBoldItalic.ttf in Resources */,
+				CECE6E2525ED28CB00C69A26 /* SourceSansPro-Italic.ttf in Resources */,
+				CECE6E2925ED28CB00C69A26 /* SourceSansPro-Bold.ttf in Resources */,
+				CECE6E2B25ED28CB00C69A26 /* SourceSansPro-SemiBold.ttf in Resources */,
+				CECE6E2125ED28CB00C69A26 /* SourceSansPro-LightItalic.ttf in Resources */,
+				CECE6E2A25ED28CB00C69A26 /* SourceSansPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +281,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECE6E2F25ED2A0600C69A26 /* FontExtension.swift in Sources */,
+				CECE6E5225EDD14300C69A26 /* ProfileViewPresenter.swift in Sources */,
+				CECE6E4F25EDCFF800C69A26 /* ProfileDetailsService.swift in Sources */,
 				CEC9E93D25ECE22E009DCE5B /* ProfileViewController.swift in Sources */,
+				CECE6E4B25EDCCBA00C69A26 /* Network.swift in Sources */,
 				CEC9E93925ECE22E009DCE5B /* AppDelegate.swift in Sources */,
+				CECE6E4625EDC9E000C69A26 /* URLSessionExtension.swift in Sources */,
+				CECE6E3E25EDC87800C69A26 /* Response.swift in Sources */,
+				CECE6E5925EDE4EA00C69A26 /* UIColorExtension.swift in Sources */,
+				CECE6E3225EDC20C00C69A26 /* RepositoryCell.swift in Sources */,
+				CECE6E3525EDC22600C69A26 /* RepositoryAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +487,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEC9E99625ECEC4A009DCE5B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		CECE6E5425EDD74E00C69A26 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEC9E99725ECEC4A009DCE5B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEC9E99625ECEC4A009DCE5B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CECE6E5525EDD74E00C69A26 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CECE6E5425EDD74E00C69A26 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEC9E92D25ECE22E009DCE5B /* Project object */;
 }
